@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#152e47"/><stop offset="1" stop-color="#07111e"/></linearGradient>
+        <radialGradient id="r"><stop stop-color="#7ba2ff" stop-opacity=".26"/><stop offset="1" stop-color="#7ba2ff" stop-opacity="0"/></radialGradient>
+      </defs>
+      <rect width="800" height="1000" fill="url(#g)"/>
+      <circle cx="610" cy="210" r="310" fill="url(#r)"/>
+      <path d="M90 790 C180 600 310 548 400 548 C490 548 620 600 710 790 L710 1000 L90 1000Z" fill="#0d1b2d" stroke="#7ba2ff" stroke-opacity=".23" stroke-width="3"/>
+      <circle cx="400" cy="345" r="142" fill="#162c43" stroke="#7ba2ff" stroke-opacity=".32" stroke-width="4"/>
+      <path d="M305 345 C305 245 350 196 405 196 C474 196 505 252 505 345 C505 445 460 500 405 500 C344 500 305 442 305 345Z" fill="#1c354e"/>
+      <path d="M300 326 C326 243 372 213 427 220 C468 226 495 248 512 292 C475 280 438 276 404 282 C365 290 333 305 300 326Z" fill="#07101d"/>
+      <rect x="76" y="72" width="132" height="44" rx="22" fill="#7ba2ff" fill-opacity=".12" stroke="#7ba2ff" stroke-opacity=".34"/>
+      <text x="142" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#7ba2ff">INTEGRATION DESIGN</text>
+      <text x="700" y="930" text-anchor="end" font-family="Arial,sans-serif" font-size="110" font-weight="800" fill="#ffffff" fill-opacity=".06">02</text>
+      <text x="76" y="900" font-family="Arial,sans-serif" font-size="47" font-weight="800" fill="#f4f8ff">EDUARDO</text>
+      <text x="76" y="946" font-family="Arial,sans-serif" font-size="47" font-weight="800" fill="#f4f8ff">CARIDE SATO</text>
+    </svg>

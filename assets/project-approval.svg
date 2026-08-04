@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#122a43"/><stop offset="1" stop-color="#07111e"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-opacity=".25"/></filter></defs>
+    <rect width="1200" height="750" fill="url(#bg)"/><circle cx="1060" cy="80" r="330" fill="#59f2c3" opacity=".08"/><circle cx="110" cy="700" r="260" fill="#59f2c3" opacity=".05"/>
+    <text x="70" y="88" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#59f2c3">WORKFLOW OPTIMIZATION</text>
+    
+  <g filter="url(#shadow)">
+    <rect x="105" y="165" width="990" height="470" rx="30" fill="#0c1a2b" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M255 400H390 M500 400H635 M745 400H880" stroke="#59f2c3" stroke-width="5" stroke-dasharray="12 12"/>
+    <g font-family="Arial,sans-serif" text-anchor="middle">
+      <rect x="155" y="325" width="100" height="150" rx="24" fill="#14324a" stroke="#59f2c3" stroke-opacity=".45"/><text x="205" y="405" fill="#f4f8ff" font-size="18">REQUEST</text>
+      <rect x="390" y="325" width="110" height="150" rx="24" fill="#14324a" stroke="#7ba2ff" stroke-opacity=".5"/><text x="445" y="405" fill="#f4f8ff" font-size="18">REVIEW</text>
+      <rect x="635" y="325" width="110" height="150" rx="24" fill="#14324a" stroke="#f6c56d" stroke-opacity=".5"/><text x="690" y="405" fill="#f4f8ff" font-size="18">APPROVE</text>
+      <rect x="880" y="325" width="120" height="150" rx="24" fill="#14324a" stroke="#59f2c3" stroke-opacity=".5"/><text x="940" y="405" fill="#f4f8ff" font-size="18">COMPLETE</text>
+    </g>
+    <rect x="155" y="205" width="845" height="64" rx="18" fill="#10263c"/><circle cx="194" cy="237" r="10" fill="#59f2c3"/><rect x="220" y="225" width="280" height="22" rx="11" fill="#ffffff" opacity=".12"/><rect x="780" y="222" width="170" height="30" rx="15" fill="#59f2c3" opacity=".16"/>
+  </g>
+    </svg>

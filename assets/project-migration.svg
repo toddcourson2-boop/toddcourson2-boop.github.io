@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#122a43"/><stop offset="1" stop-color="#07111e"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-opacity=".25"/></filter></defs>
+    <rect width="1200" height="750" fill="url(#bg)"/><circle cx="1060" cy="80" r="330" fill="#59f2c3" opacity=".08"/><circle cx="110" cy="700" r="260" fill="#59f2c3" opacity=".05"/>
+    <text x="70" y="88" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#59f2c3">DATA MIGRATION</text>
+    
+  <g filter="url(#shadow)">
+    <rect x="90" y="160" width="1020" height="500" rx="32" fill="#0c1a2b" stroke="#ffffff" stroke-opacity=".12"/>
+    <g font-family="Arial" fill="#f4f8ff" text-anchor="middle"><rect x="150" y="265" width="210" height="250" rx="28" fill="#112a42"/><text x="255" y="390" font-size="24" font-weight="800">SOURCE</text><text x="255" y="425" font-size="16" fill="#8fa1b9">Legacy data</text><rect x="840" y="265" width="210" height="250" rx="28" fill="#112a42"/><text x="945" y="390" font-size="24" font-weight="800">NETSUITE</text><text x="945" y="425" font-size="16" fill="#8fa1b9">Validated records</text></g>
+    <path d="M360 390H490" stroke="#59f2c3" stroke-width="5" stroke-dasharray="10 10"/><path d="M710 390H840" stroke="#59f2c3" stroke-width="5" stroke-dasharray="10 10"/>
+    <rect x="490" y="230" width="220" height="320" rx="30" fill="#15334d" stroke="#59f2c3" stroke-opacity=".38"/><text x="600" y="290" text-anchor="middle" font-family="Arial" font-size="21" font-weight="800" fill="#f4f8ff">VALIDATION</text>
+    <g font-family="Arial" font-size="15" fill="#cfd9e7"><circle cx="535" cy="350" r="11" fill="#59f2c3"/><text x="565" y="356">Mapping</text><circle cx="535" cy="410" r="11" fill="#59f2c3"/><text x="565" y="416">Cleaning</text><circle cx="535" cy="470" r="11" fill="#59f2c3"/><text x="565" y="476">Reconcile</text></g>
+  </g>
+    </svg>

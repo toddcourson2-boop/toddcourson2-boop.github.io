@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#122a43"/><stop offset="1" stop-color="#07111e"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-opacity=".25"/></filter></defs>
+    <rect width="1200" height="750" fill="url(#bg)"/><circle cx="1060" cy="80" r="330" fill="#f6c56d" opacity=".08"/><circle cx="110" cy="700" r="260" fill="#f6c56d" opacity=".05"/>
+    <text x="70" y="88" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#f6c56d">REVENUE REPORTING</text>
+    
+  <g filter="url(#shadow)">
+    <rect x="90" y="155" width="1020" height="510" rx="32" fill="#0c1a2b" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect x="135" y="205" width="240" height="120" rx="22" fill="#112941"/><text x="165" y="250" font-family="Arial" font-size="17" fill="#8fa1b9">TOTAL REVENUE</text><text x="165" y="292" font-family="Arial" font-size="38" font-weight="800" fill="#f4f8ff">$ 2.48M</text>
+    <rect x="400" y="205" width="240" height="120" rx="22" fill="#112941"/><text x="430" y="250" font-family="Arial" font-size="17" fill="#8fa1b9">RECORDS</text><text x="430" y="292" font-family="Arial" font-size="38" font-weight="800" fill="#f4f8ff">128K</text>
+    <rect x="665" y="205" width="400" height="120" rx="22" fill="#112941"/><text x="695" y="250" font-family="Arial" font-size="17" fill="#8fa1b9">PROCESSING STATUS</text><rect x="695" y="272" width="320" height="16" rx="8" fill="#ffffff" opacity=".1"/><rect x="695" y="272" width="246" height="16" rx="8" fill="#f6c56d"/>
+    <rect x="135" y="355" width="610" height="255" rx="22" fill="#112941"/><g stroke="#ffffff" stroke-opacity=".09"><path d="M180 410H700M180 470H700M180 530H700"/></g><path d="M180 545 C255 520 290 455 360 475 C430 496 470 400 545 425 C610 446 630 365 700 390" fill="none" stroke="#f6c56d" stroke-width="6"/>
+    <rect x="770" y="355" width="295" height="255" rx="22" fill="#112941"/><g fill="#7ba2ff"><rect x="815" y="535" width="36" height="35" rx="7"/><rect x="875" y="480" width="36" height="90" rx="7"/><rect x="935" y="425" width="36" height="145" rx="7"/><rect x="995" y="390" width="36" height="180" rx="7"/></g>
+  </g>
+    </svg>

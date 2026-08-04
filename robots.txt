@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Add your final domain after deployment, for example:
+# Sitemap: https://www.your-domain.com/sitemap.xml

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-DOMAIN.com after connecting the final domain. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN.com/</loc></url>
+  <url><loc>https://YOUR-DOMAIN.com/blog/workflow-optimization.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.com/blog/integration-reliability.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.com/blog/netsuite-busy-periods.html</loc></url>
+  <url><loc>https://YOUR-DOMAIN.com/privacy.html</loc></url>
+</urlset>
