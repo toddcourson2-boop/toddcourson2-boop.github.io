@@ -1,3 +1,88 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Complexity is not measured only by the number of states. The real question is whether someone can still understand, test, and safely change the business logic."><title>When a NetSuite workflow becomes too complex | Eduardo Caride Sato</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="article.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8Z9V5S9VSJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8Z9V5S9VSJ',{send_page_view:true});</script></head>
-<body class="article-page"><header class="article-header"><div class="article-container"><a class="brand" href="../index.html"><span class="brand-symbol">EC</span><span class="brand-name">Eduardo Caride Sato</span></a><a class="article-back" href="../index.html#blog">← Back to blog</a></div></header><main class="article-main"><article class="article-container article-body"><p class="section-label">WORKFLOW DESIGN</p><h1>When a NetSuite workflow becomes too complex</h1><p class="article-lead">Complexity is not measured only by the number of states. The real question is whether someone can still understand, test, and safely change the business logic.</p><figure class="article-cover"><img src="../assets/blog-workflow.svg" alt="When a NetSuite workflow becomes too complex"></figure><h2>Start with the business policy</h2><p>Before changing the workflow, document who should approve, under which conditions, in which order, and what should happen when data changes. Many technical problems begin because the configured workflow no longer matches a clearly stated policy.</p><h2>Look for repeated decisions</h2><p>Repeated actions, duplicated conditions, parallel transitions, and state-specific exceptions make routing harder to explain. A good redesign consolidates common decisions and keeps each state responsible for one clear purpose.</p><div class="article-callout"><p>A workflow should make the approval policy visible—not hide it inside a maze of transitions.</p></div><h2>Know when SuiteScript is appropriate</h2><p>Workflow is useful for readable routing and simple actions. SuiteScript becomes appropriate when validation, data preparation, reusable calculation, high-volume processing, or complex branching is easier to test and maintain in code.</p><h2>Test the paths, not only the happy path</h2><ul><li>Standard approval and rejection</li><li>Threshold and subsidiary variations</li><li>Missing or changed approver data</li><li>Resubmission after editing</li><li>Delegation and inactive employees</li><li>Production deployment and rollback</li></ul><h2>The goal is supportability</h2><p>The best workflow is not the one with the fewest states. It is the one that accurately enforces the policy, performs reliably, and can be understood by the next person who needs to support it.</p><div class="article-cta"><div><strong>Need help with a similar challenge?</strong><p>Discuss the current process and the clearest technical next step.</p></div><a class="button button-primary" href="../index.html#contact">Start a conversation →</a></div></article></main></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Complexity is not measured only by the number of states. The real question is whether someone can still understand, test, and safely change the business logic."
+    />
+    <title>When a NetSuite workflow becomes too complex | Eduardo Caride Sato</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="article.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Z9V5S9VSJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8Z9V5S9VSJ", { send_page_view: true });
+    </script>
+  </head>
+  <body class="article-page">
+    <header class="article-header">
+      <div class="article-container">
+        <a class="brand" href="../index.html"
+          ><span class="brand-symbol">EC</span><span class="brand-name">Eduardo Caride Sato</span></a
+        ><a class="article-back" href="../index.html#blog">← Back to blog</a>
+      </div>
+    </header>
+    <main class="article-main">
+      <article class="article-container article-body">
+        <p class="section-label">WORKFLOW DESIGN</p>
+        <h1>When a NetSuite workflow becomes too complex</h1>
+        <p class="article-lead">
+          Complexity is not measured only by the number of states. The real question is whether someone can still
+          understand, test, and safely change the business logic.
+        </p>
+        <figure class="article-cover">
+          <img src="../assets/blog-workflow.svg" alt="When a NetSuite workflow becomes too complex" />
+        </figure>
+        <h2>Start with the business policy</h2>
+        <p>
+          Before changing the workflow, document who should approve, under which conditions, in which order, and what
+          should happen when data changes. Many technical problems begin because the configured workflow no longer
+          matches a clearly stated policy.
+        </p>
+        <h2>Look for repeated decisions</h2>
+        <p>
+          Repeated actions, duplicated conditions, parallel transitions, and state-specific exceptions make routing
+          harder to explain. A good redesign consolidates common decisions and keeps each state responsible for one
+          clear purpose.
+        </p>
+        <div class="article-callout">
+          <p>A workflow should make the approval policy visible—not hide it inside a maze of transitions.</p>
+        </div>
+        <h2>Know when SuiteScript is appropriate</h2>
+        <p>
+          Workflow is useful for readable routing and simple actions. SuiteScript becomes appropriate when validation,
+          data preparation, reusable calculation, high-volume processing, or complex branching is easier to test and
+          maintain in code.
+        </p>
+        <h2>Test the paths, not only the happy path</h2>
+        <ul>
+          <li>Standard approval and rejection</li>
+          <li>Threshold and subsidiary variations</li>
+          <li>Missing or changed approver data</li>
+          <li>Resubmission after editing</li>
+          <li>Delegation and inactive employees</li>
+          <li>Production deployment and rollback</li>
+        </ul>
+        <h2>The goal is supportability</h2>
+        <p>
+          The best workflow is not the one with the fewest states. It is the one that accurately enforces the policy,
+          performs reliably, and can be understood by the next person who needs to support it.
+        </p>
+        <div class="article-cta">
+          <div>
+            <strong>Need help with a similar challenge?</strong>
+            <p>Discuss the current process and the clearest technical next step.</p>
+          </div>
+          <a class="button button-primary" href="../index.html#contact">Start a conversation →</a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

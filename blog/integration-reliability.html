@@ -1,3 +1,84 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="An HTTP 200 response proves that one request completed. It does not prove that the full business transaction is correct, complete, or reconciled."><title>Reliable integrations need more than a successful API call | Eduardo Caride Sato</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="article.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8Z9V5S9VSJ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8Z9V5S9VSJ',{send_page_view:true});</script></head>
-<body class="article-page"><header class="article-header"><div class="article-container"><a class="brand" href="../index.html"><span class="brand-symbol">EC</span><span class="brand-name">Eduardo Caride Sato</span></a><a class="article-back" href="../index.html#blog">← Back to blog</a></div></header><main class="article-main"><article class="article-container article-body"><p class="section-label">INTEGRATIONS</p><h1>Reliable integrations need more than a successful API call</h1><p class="article-lead">An HTTP 200 response proves that one request completed. It does not prove that the full business transaction is correct, complete, or reconciled.</p><figure class="article-cover"><img src="../assets/blog-integration.svg" alt="Reliable integrations need more than a successful API call"></figure><h2>Define the source of truth</h2><p>Every important field needs an owner. Without source-of-truth rules, systems overwrite each other, records drift, and support teams cannot explain which value should win.</p><h2>Validate before creating records</h2><p>Required references, subsidiaries, customers, items, currencies, dates, and totals should be validated at clear boundaries. A rejected record with an understandable reason is safer than a partially created business transaction.</p><h2>Design for retries</h2><p>Network and platform failures are normal. An integration should know whether a retry creates a duplicate, updates the existing record, or resumes an incomplete process. Idempotent keys and external identifiers are essential.</p><div class="article-callout"><p>Integration quality is measured most clearly when something fails.</p></div><h2>Make errors operational</h2><ul><li>Use messages that explain what failed and why</li><li>Identify who owns the next action</li><li>Separate transient errors from data errors</li><li>Preserve the original payload and response</li><li>Provide a safe replay or correction process</li></ul><h2>Reconcile important outcomes</h2><p>For orders, invoices, payments, journals, inventory, or other financially important records, compare expected and actual results. Monitoring requests is useful; reconciling business outcomes is stronger.</p><div class="article-cta"><div><strong>Need help with a similar challenge?</strong><p>Discuss the current process and the clearest technical next step.</p></div><a class="button button-primary" href="../index.html#contact">Start a conversation →</a></div></article></main></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An HTTP 200 response proves that one request completed. It does not prove that the full business transaction is correct, complete, or reconciled."
+    />
+    <title>Reliable integrations need more than a successful API call | Eduardo Caride Sato</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="article.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Z9V5S9VSJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8Z9V5S9VSJ", { send_page_view: true });
+    </script>
+  </head>
+  <body class="article-page">
+    <header class="article-header">
+      <div class="article-container">
+        <a class="brand" href="../index.html"
+          ><span class="brand-symbol">EC</span><span class="brand-name">Eduardo Caride Sato</span></a
+        ><a class="article-back" href="../index.html#blog">← Back to blog</a>
+      </div>
+    </header>
+    <main class="article-main">
+      <article class="article-container article-body">
+        <p class="section-label">INTEGRATIONS</p>
+        <h1>Reliable integrations need more than a successful API call</h1>
+        <p class="article-lead">
+          An HTTP 200 response proves that one request completed. It does not prove that the full business transaction
+          is correct, complete, or reconciled.
+        </p>
+        <figure class="article-cover">
+          <img src="../assets/blog-integration.svg" alt="Reliable integrations need more than a successful API call" />
+        </figure>
+        <h2>Define the source of truth</h2>
+        <p>
+          Every important field needs an owner. Without source-of-truth rules, systems overwrite each other, records
+          drift, and support teams cannot explain which value should win.
+        </p>
+        <h2>Validate before creating records</h2>
+        <p>
+          Required references, subsidiaries, customers, items, currencies, dates, and totals should be validated at
+          clear boundaries. A rejected record with an understandable reason is safer than a partially created business
+          transaction.
+        </p>
+        <h2>Design for retries</h2>
+        <p>
+          Network and platform failures are normal. An integration should know whether a retry creates a duplicate,
+          updates the existing record, or resumes an incomplete process. Idempotent keys and external identifiers are
+          essential.
+        </p>
+        <div class="article-callout"><p>Integration quality is measured most clearly when something fails.</p></div>
+        <h2>Make errors operational</h2>
+        <ul>
+          <li>Use messages that explain what failed and why</li>
+          <li>Identify who owns the next action</li>
+          <li>Separate transient errors from data errors</li>
+          <li>Preserve the original payload and response</li>
+          <li>Provide a safe replay or correction process</li>
+        </ul>
+        <h2>Reconcile important outcomes</h2>
+        <p>
+          For orders, invoices, payments, journals, inventory, or other financially important records, compare expected
+          and actual results. Monitoring requests is useful; reconciling business outcomes is stronger.
+        </p>
+        <div class="article-cta">
+          <div>
+            <strong>Need help with a similar challenge?</strong>
+            <p>Discuss the current process and the clearest technical next step.</p>
+          </div>
+          <a class="button button-primary" href="../index.html#contact">Start a conversation →</a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
